@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+<p>A HTML chama de <strong>ordered lists</strong> todas aquelas listas onde a ordem dos itens é algo
+muito importante. Um passo-a-passo para criar um bolo, uma lista de aprovados no
+vestibular e uma lista com os carros mais caros do mundo são exemplos de listas
+ordenadas.</p>
+<p>Para criar uma ordered list, vamos usar a tag &lt;ol&gt; para delimitar a lista e &lt;li&gt; (list
+    item) para identificar cada item da lista.</p>
+    <ol type="i"> <!--1 A a I i-->
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Pegar o onibus</li>
+        <li>trabalhar</li>
+     </ol>
+     <h2>Listas Não Ordenadas</h2>
+     <p>Para criar uma unordered list, vamos usar a tag &lt;ul&gt; para delimitar a lista e a tag
+        &lt;li&gt; para criar cada um dos seus itens internos.</p>
+        <ul type="square">  <!--disc circle square-->
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Arroz</li> 
+            <li>Feijão</li>
+        </ul>
+        <h2>Minhas linguagens favoritas</h2>
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="a" start="5">
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Kotlin</li>
+            </ol>
+        </ol>
+        <h2>Meus jogos favoritos</h2>
+        <ol>
+            <li>NES</li>
+            <ul type="disc">
+                <li>Mario Bros</li>
+                <ul type="circle">
+                    <li>Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+            <li>SNES</li>
+            <ul type="disc">
+                <li>Mario</li>
+                <li>Donkey Kong</li>
+            </ul>
+            <li>PLayStation</li>
+            <ul type="disc">
+                <li>Final Fantasy</li>
+                <li>Gta San Andreas</li>
+            </ul>
+        </ol>
+        <h2>Lista de definições</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Línguagem de marcação para a criação do conteúdo de um site.</dd>
+            <dt>CSS</dt>
+            <dd>Línguagem de marcação para a criação do design de um site.</dd>
+            <dt>JavaScript</dt>
+            <dd>Línguagem de programação para a criação de interatividade de um site.</dd>
+        </dl>
+</body>
+</html>
