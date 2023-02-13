@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -31,6 +32,18 @@
             background-color: gray;
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        } 
+        /*PRESTAR ATENÇÃO 
+            odd - impar, even - par, 2n de duas em duas, 2n-1 de duas em duas comecando no lado impar*/
 
         td.num{
             text-align: right;
@@ -56,7 +69,7 @@
             <tr>
                 <th scope="col">Posição</th>
                 <th scope="col">Estado</th>
-                <th class="num" >População</th>
+                <th class="num"  style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
