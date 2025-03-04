@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-color: #f4f4f4;
+}
+
+.cartao{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease-in-out;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+.cartao:hover {
+    transform: translateY(-5px);
+    transform: scale(1.05s);
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+    background-color: #007bff16;
+    color: black;
+}
+
+.cartao:hover .contato i,
+.cartao:hover .redes a{
+    color: #007bff;
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.profissao {
+    font-size: 14px;
+    color: #666;
+}
+
+.descricao {
+    font-size: 12px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.contato p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.contato i {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+.redes a {
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.redes a:hover {
+    color: #0056b3;
+}
